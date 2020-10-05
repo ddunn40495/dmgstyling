@@ -4,7 +4,12 @@ body {
   font-size: 16px;
 }
 
-.navbar, .premium-info, .products {
+.navbar {
+  background-color: white;
+  margin-bottom: 2em;
+}
+
+.premium-info, .products {
   background-color: white;
   margin: 2em 0;
   /* MARGIN IS ARBITRARILY SET RIGHT NOW */
@@ -121,6 +126,7 @@ h2 {
 .products {
   height: 80px;
   margin: 5em 0;
+  padding: .25em;
 }
 
 .load-btn {
@@ -145,3 +151,21 @@ h2 {
 .product-name {
   text-decoration: underline;
 }
+
+/* TABLET */
+/*
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 944px;
+    height: 80px;
+  }
+
+  .filter-container, .bestsellers-container {
+    width: 944px;
+  }
+
+  .product-cart-btn {
+    width: 77px;
+    height: 40px;
+  }
+} */
