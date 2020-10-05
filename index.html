@@ -8,14 +8,23 @@
   <body>
     <!-- NAV BAR -->
     <div class="navbar">
-      <!-- FILTER -->
-      filter
-      <input type="search"></input>
-      <div class="account">Account</div>
-      <div class="orders">Orders</div>
-      <div class="shopping-cart">Cart</div>
+        <!-- FILTER -->
+      <div class="nav-left filter">
+        filter
+      </div>
+      <div class="nav-middle search">
+        <form class="search-form"><input type="search" placeholder="Search" class="search-input"></input><input type="submit" value="🔍" class="search-btn"></input></form>
+      </div>
+      <div class="nav-right">
+        <ul class="nav-right">
+          <li class="account">Account</li>
+          <li class="orders">Orders</li>
+          <li  class="shopping-cart">Cart</li>
+        </ul>
+      </div>
     </div>
 
+    <div class="container">
     <!-- SORT -->
     <div class="sort">
       <h1>Recommended Products</h1>
@@ -50,9 +59,9 @@
                 ₪1,360
               </div>
               <div class="stock-buttons">
-                <button>-</button>4<button>+</button>
-                <button class="cart-btn">Add to cart</button>
+                <button class="stock-btn">—</button>4<button class="stock-btn">+</button>
               </div>
+                <button class="cart-btn">Add to cart</button>
             </div>
           </div>
 
@@ -72,31 +81,35 @@
               ₪1,360
             </div>
             <div class="stock-buttons">
-              <button>-</button>4<button>+</button>
-              <button class="cart-btn">Add to cart</button>
+              <button class="stock-btn">—</button>4<button class="stock-btn">+</button>
             </div>
+              <button class="cart-btn">Add to cart</button>
           </div>
         </div>
     </div>
 
       <!-- REMAINING PRODUCTS -->
       <div class="products">
-        Continental PremiumContact™ 6
-        <img src="" alt="oe img">
-        195/55 R15 85V SUV
-        Stock ✅
-        Price ₪340
-        <button>-</button>4<button>+</button>
-        Total ₪1,360
-        <button class="cart-btn">Add to cart</button>
+        <ul class="product-info">
+          <li class="product-name">Continental PremiumContact™ 6</li>
+          <li><img src="" alt="oe img"></li>
+          <li>195/55 R15 85V SUV</li>
+          <li>Stock ✅</li>
+          <li>Price ₪340<li>
+          <li><div class="stock-buttons">
+            <button class="stock-btn">-</button>4<button class="stock-btn">+</button>
+          </div></li>
+          <li>Total ₪1,360</li>
+          <li><button class="cart-btn">Add to cart</button></li>
+        </ul>
       </div>
 
     </div>
 
     <!-- LOAD MORE -->
     <div class="load">
-      <button>Load More Results</button>
+      <button class="load-btn">Load More Results</button>
     </div>
-
+    </div>
   </body>
 </html>
