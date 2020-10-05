@@ -146,6 +146,7 @@ h2 {
 
 .product-info li {
   display: inline;
+  padding: 8px 0;
 }
 
 .product-name {
