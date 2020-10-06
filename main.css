@@ -130,6 +130,13 @@ h2 {
   width: 74%;
 }
 
+.tag {
+  width: 153px;
+  height: 24px;
+  background-color: #FFA500;
+  border: 1px solid #FFA500;
+}
+
 .button-container {
   display: flex;
   flex-direction: row;
@@ -186,6 +193,13 @@ h2 {
   list-style-type: none;
 }
 
+.product-info ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+/* NOT SURE THIS IS ACTUALLY DOING ANYTHING */
+
 .product-info li {
   display: inline;
   padding: 8px 0;
@@ -193,22 +207,163 @@ h2 {
 
 .product-name {
   text-decoration: underline;
+  font-weight: bold;
 }
 
-/* TABLET */
-/*
-@media only screen and (max-width: 1024px) {
+/* TABLET LANDSCAPE 1024*/
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .navbar {
+    width: 1024px;
+    height: 80px;
+  }
+
   .container {
     width: 944px;
-    height: 80px;
   }
 
   .filter-container, .bestsellers-container {
     width: 944px;
   }
 
+  .search-input {
+    width: 400px;
+    height: 40px;
+  }
+
+  .products {
+    width: 944px;
+    height: 80px;
+  }
+
+  .premium-info img {
+    width: 122.63px;
+    height: 122.63px;
+  }
+
   .product-cart-btn {
     width: 77px;
     height: 40px;
+    /* CART ONLY NO TEXT WITH SPAN CLASS? */
   }
-} */
+}
+
+/* TABLET PORTRAIT 768 */
+@media (max-width: 768px) and (orientation: portrait) {
+
+  .navbar {
+    width: 768px;
+    height: 80px;
+  }
+
+  .search-input {
+    width: 284px;
+    height: 40px;
+  }
+
+  .container {
+    width: 704px;
+  }
+
+  .filter-container {
+    width: 704px;
+  }
+
+  .bestsellers-container {
+    width: 704px;
+    height: 236px;
+  }
+
+  .tag {
+    width: 144px;
+    height: 21px;
+  }
+
+
+  body {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .premium-info img {
+    width: 104.88px;
+    height: 104.88px;
+  }
+
+  .pb-stock-info img {
+    width: 39.02px;
+    height: 31.7px;
+  }
+
+  .products img {
+    width: 44px;
+    height: 35.75px;
+  }
+
+  .cart-btn {
+    width: 135px;
+    height: 40px;
+  }
+
+}
+
+/* MOBILE 375 */
+
+@media (max-width: 375px) {
+
+  .navbar {
+    width: 375px;
+    height: 56px;
+  }
+
+  .container {
+    max-width: 338px;
+  }
+
+  .filter-container {
+    display: none;
+  }
+
+  .products {
+    width: 338px;
+    height: 158px;
+  }
+
+  .search-input {
+    display: none;
+  }
+
+  .premium-bestseller, .economy-bestseller {
+    width: 280px;
+    height: 236px;
+  }
+  /* THIS MESSES UP MY DISPLAY FLEX */
+
+  .tag {
+    width: 144px;
+    height: 21px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+
+  .stock-buttons {
+    width: 125px;
+    height: 40px;
+  }
+
+  .premium-cart-btn {
+    width: 77px;
+    height: 40px;
+  }
+
+  .product-cart-btn {
+    width: 135px;
+    height: 40px;
+  }
+
+}
