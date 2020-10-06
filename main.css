@@ -184,9 +184,21 @@ h2 {
   border-radius: 15px;
 }
 
-.premium-info img {
+.premium-img {
   width: 123px;
   height: 123px;
+}
+
+.tire-img {
+  position: relative;
+}
+
+.auto-img {
+  /* position: absolute; */
+  width: 40.76px;
+  height: 72.9px;
+  /* top: 0;
+  right: 0; */
 }
 
 .pb-stock-info img, .products img {
@@ -194,7 +206,7 @@ h2 {
   height: 52px;
 }
 
-.stock-img img {
+.stock-img {
   width: 14px;
   height: 14px;
 }
@@ -246,9 +258,14 @@ h2 {
     height: 80px;
   }
 
-  .premium-info img {
+  .premium-img {
     width: 122.63px;
     height: 122.63px;
+  }
+
+  .auto-img {
+    width: 34.86px;
+    height: 62.34px;
   }
 
   .product-cart-btn {
@@ -298,9 +315,14 @@ h2 {
     font-size: 16px;
   }
 
-  .premium-info img {
+  .premium-img {
     width: 104.88px;
     height: 104.88px;
+  }
+
+  .auto-img {
+    width: 28.11px;
+    height: 55.03px;
   }
 
   .pb-stock-info img {
@@ -327,6 +349,10 @@ h2 {
   .navbar {
     width: 375px;
     height: 56px;
+  }
+
+  .nav-text {
+    display: none;
   }
 
   .container {
@@ -360,6 +386,16 @@ h2 {
   .tag {
     width: 144px;
     height: 21px;
+  }
+
+  .premium-img {
+    width: 104.88px;
+    height: 104.88px;
+  }
+
+  .auto-img {
+    width: 28.11px;
+    height: 55.03px;
   }
 
   h1 {
