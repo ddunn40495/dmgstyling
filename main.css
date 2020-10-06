@@ -11,7 +11,7 @@ body {
 
 .premium-info, .products {
   background-color: white;
-  margin: 0 0 2em 0;
+  margin: 0 0 1.5em 0;
   /* MARGIN IS ARBITRARILY SET RIGHT NOW */
 }
 
@@ -176,7 +176,7 @@ h2 {
 
 .products {
   height: 80px;
-  margin: 2em 0;
+  margin: 1.5em 0;
   padding: .25em;
 }
 
