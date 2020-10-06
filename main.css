@@ -40,6 +40,7 @@ h2 {
 .nav-left {
   width: 9%;
   height: 80px;
+  text-align: center;
 }
 
 .nav-middle {
@@ -50,6 +51,18 @@ h2 {
 .nav-right {
   width: 20%;
   height: 80px;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.account, .orders, .shopping-cart {
+  width: 60px;
+  height: 80px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .container {
@@ -73,18 +86,7 @@ h2 {
   height: 40px;
 }
 
-.account, .orders, .shopping-cart {
-  width: 60px;
-  height: 80px;
-  display: inline;
-  font-size: 14px;
-  text-align: center;
-}
 
-.nav-right {
-  list-style-type: none;
-  display: inline;
-}
 /* SEARCH & FILTER */
 .filter-container {
   width: 1306px;
@@ -351,7 +353,7 @@ h2 {
     height: 56px;
   }
 
-  .nav-text {
+  .nav-text, .search-input {
     display: none;
   }
 
@@ -371,10 +373,6 @@ h2 {
   .products {
     width: 338px;
     height: 158px;
-  }
-
-  .search-input {
-    display: none;
   }
 
   .premium-bestseller, .economy-bestseller {
