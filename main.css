@@ -133,7 +133,7 @@ h2 {
 .button-container {
   display: flex;
   flex-direction: row;
-  justify-content: space
+  justify-content: space-between;
 }
 .stock-buttons, .cart-btn {
   width: 50%;
