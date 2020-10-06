@@ -84,6 +84,8 @@ h2 {
 
 .search-btn {
   height: 40px;
+  background-color: white;
+  border: none;
 }
 
 
@@ -387,8 +389,8 @@ h2 {
   }
 
   .premium-img {
-    width: 104.88px;
-    height: 104.88px;
+    width: 102.52px;
+    height: 102.52px;
   }
 
   .auto-img {
