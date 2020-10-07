@@ -172,10 +172,23 @@ h2 {
 .cart-btn {
   width: 152px;
   height: 40px;
-  background: url("./assets/cart.png");
+  background: url("img/cart.png");
   background-repeat: no-repeat;
   background-position: left;
   background-color: #ffa500;
+  border: 2px solid #ffa500;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.cart-btn-notify {
+  width: 152px;
+  height: 40px;
+  background: url("img/notification.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: white;
+  border: 2px solid #ffa500;
   border-radius: 15px;
   font-weight: bold;
 }
@@ -281,7 +294,17 @@ h2 {
   .product-cart-btn {
     width: 77px;
     height: 40px;
-    /* CART ONLY NO TEXT WITH SPAN CLASS? */
+    background-position: center;
+  }
+
+  .cart-btn-notify {
+    width: 77px;
+    height: 40px;
+    background-position: center;
+  }
+
+  .cart-btn-text {
+    display: none;
   }
 }
 
@@ -344,6 +367,11 @@ h2 {
   }
 
   .cart-btn {
+    width: 135px;
+    height: 40px;
+  }
+
+  .cart-btn-notify {
     width: 135px;
     height: 40px;
   }
@@ -419,5 +447,18 @@ h2 {
   .product-cart-btn {
     width: 135px;
     height: 40px;
+  }
+
+  .cart-btn-notify {
+    width: 135px;
+    height: 40px;
+  }
+
+  .premium-cart-btn {
+    background-position: center;
+  }
+
+  .premium-cart-btn-text {
+    display: none;
   }
 }
